@@ -1,33 +1,16 @@
 {
-  "name": "react-vite-ts-boilerplate",
-  "description": "Very Fast React + Vite Boilerplate",
-  "version": "1.2.6",
-  "license": "MIT",
+  "name": "star-wars-characters",
+  "description": "Template used: react-vite-ts-boilerplate",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "prod": "vite build",
-    "release": "standard-version",
     "test": "vitest",
-    "coverage": "vitest run --coverage",
-    "semantic-release": "semantic-release"
+    "coverage": "vitest run --coverage"
   },
-  "bin": "./bin/react-vite-ts-boilerplate.js",
-  "keywords": [
-    "react",
-    "boilerplate",
-    "typescript",
-    "starter"
-  ],
-  "author": "sohyun-choi <sohyun4283@naver.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/choisohyun/react-vite-ts-boilerplate.git"
-  },
-  "bugs": {
-    "url": "https://github.com/choisohyun/react-vite-ts-boilerplate/issues"
-  },
-  "homepage": "https://github.com/choisohyun/react-vite-ts-boilerplate#readme",
   "dependencies": {
+    "@tanstack/react-query": "^5.17.19",
+    "date-fns": "^3.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "6.21.3"
