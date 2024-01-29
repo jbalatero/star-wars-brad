@@ -14,6 +14,8 @@ const Main = () => {
 
   return (
     <div className="container mx-auto">
+      <p className="text-lg my-5">Star Wars Characters</p>
+
       {isFetching ? (
         <span className="loading loading-spinner loading-md"></span>
       ) : isLoadingError ? (
@@ -52,7 +54,7 @@ const Main = () => {
         ))}
       </div>
 
-      <div className="join grid grid-cols-2">
+      <div className="join grid grid-cols-2 mb-5">
         <button
           className="join-item btn btn-outline"
           disabled={isFetching || !paginatedResult?.previous}

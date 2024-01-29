@@ -1,4 +1,4 @@
-import { DefaultError, InfiniteData, QueryKey, useInfiniteQuery, useQuery } from '@tanstack/react-query';
+import { useQuery } from '@tanstack/react-query';
 
 export type Character = {
   name: string;
