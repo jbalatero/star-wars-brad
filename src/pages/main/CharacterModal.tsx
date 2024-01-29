@@ -1,15 +1,7 @@
 import React, { DialogHTMLAttributes, useEffect, useRef } from 'react';
-import { Character } from '@/hooks/useQueryStarWarsPeople';
 import { format } from 'date-fns';
 import { useQuery } from '@tanstack/react-query';
-
-export type Homeworld = {
-  name: string;
-  terrain: string;
-  climate: string;
-  residents: Array<string>;
-  [k: string]: any;
-};
+import { Character, Homeworld } from '@/types/types';
 
 export const CharacterModal: React.VFC<{
   character: Character;
@@ -20,8 +12,6 @@ export const CharacterModal: React.VFC<{
     queryKey: ['homeworld', character.homeworld],
     queryFn: () => fetch(character.homeworld).then(response => response.json()),
   });
-
-  console.log(homeworldResult.data);
 
   const ref = useRef<HTMLDialogElement>(null);
 
@@ -34,7 +24,7 @@ export const CharacterModal: React.VFC<{
   }, [character]);
 
   return (
-    <dialog ref={ref} className="modal" onClose={onClose}>
+    <dialog ref={ref} data-testid="dialog" className="modal" onClose={onClose}>
       <div className="modal-box">
         <h3 className="font-bold text-lg mb-4">{character?.name}</h3>
         <table className="table">

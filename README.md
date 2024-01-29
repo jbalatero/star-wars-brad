@@ -10,3 +10,9 @@ This is based on [react-vite-ts-boilerplate](https://github.com/choisohyun/react
 ```
   yarn dev
 ```
+
+3. Run tests
+
+```
+  yarn test
+```
