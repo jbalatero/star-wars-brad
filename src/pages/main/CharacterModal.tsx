@@ -1,5 +1,5 @@
 import React, { DialogHTMLAttributes, useEffect, useRef } from 'react';
-import { Character } from '@/hooks/useInfiniteQueryStarWarsPeople';
+import { Character } from '@/hooks/useQueryStarWarsPeople';
 import { format } from 'date-fns';
 import { useQuery } from '@tanstack/react-query';
 

@@ -9247,65 +9247,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-vite-ts-boilerplate@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-vite-ts-boilerplate@workspace:."
-  dependencies:
-    "@commitlint/cli": "npm:17.8.1"
-    "@commitlint/config-conventional": "npm:17.8.1"
-    "@rollup/plugin-alias": "npm:3.1.9"
-    "@semantic-release/changelog": "npm:6.0.3"
-    "@semantic-release/git": "npm:10.0.1"
-    "@tanstack/react-query": "npm:^5.17.19"
-    "@testing-library/dom": "npm:8.20.1"
-    "@testing-library/react": "npm:13.4.0"
-    "@testing-library/react-hooks": "npm:8.0.1"
-    "@testing-library/user-event": "npm:14.5.2"
-    "@types/jest": "npm:29.5.11"
-    "@types/node": "npm:18.19.9"
-    "@types/react": "npm:18.2.48"
-    "@types/react-dom": "npm:18.2.18"
-    "@typescript-eslint/eslint-plugin": "npm:5.62.0"
-    "@typescript-eslint/parser": "npm:5.62.0"
-    "@vitejs/plugin-react": "npm:2.2.0"
-    "@vitest/ui": "npm:0.34.7"
-    autoprefixer: "npm:^10.4.17"
-    babel-polyfill: "npm:6.26.0"
-    c8: "npm:7.14.0"
-    core-js: "npm:3.35.1"
-    cssnano: "npm:5.1.15"
-    daisyui: "npm:^4.6.0"
-    date-fns: "npm:^3.3.1"
-    eslint: "npm:8.23.1"
-    eslint-config-prettier: "npm:8.5.0"
-    eslint-plugin-prettier: "npm:4.2.1"
-    husky: "npm:8.0.3"
-    jsdom: "npm:20.0.3"
-    lint-staged: "npm:13.3.0"
-    postcss: "npm:^8.4.33"
-    postcss-import: "npm:15.1.0"
-    postcss-load-config: "npm:4.0.2"
-    postcss-loader: "npm:7.3.4"
-    postcss-nested: "npm:5.0.6"
-    prettier: "npm:2.7.1"
-    react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
-    react-router-dom: "npm:6.21.3"
-    sass: "npm:1.70.0"
-    semantic-release: "npm:19.0.5"
-    standard-version: "npm:9.5.0"
-    tailwindcss: "npm:^3.4.1"
-    typescript: "npm:4.9.5"
-    vite: "npm:3.2.8"
-    vite-plugin-checker: "npm:0.6.2"
-    vite-plugin-html: "npm:3.2.2"
-    vite-tsconfig-paths: "npm:3.6.0"
-    vitest: "npm:0.34.6"
-  bin:
-    react-vite-ts-boilerplate: ./bin/react-vite-ts-boilerplate.js
-  languageName: unknown
-  linkType: soft
-
 "react@npm:18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
@@ -10202,6 +10143,63 @@ __metadata:
   checksum: 22aab8f4768b3d1126dae8cc74131119de140e760e7cb67b7278ae192d700fe51ffc153691de1dd1c6e1589f9828d052981684e7b9b6b9b8a30e5681e624dbc5
   languageName: node
   linkType: hard
+
+"star-wars-characters@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "star-wars-characters@workspace:."
+  dependencies:
+    "@commitlint/cli": "npm:17.8.1"
+    "@commitlint/config-conventional": "npm:17.8.1"
+    "@rollup/plugin-alias": "npm:3.1.9"
+    "@semantic-release/changelog": "npm:6.0.3"
+    "@semantic-release/git": "npm:10.0.1"
+    "@tanstack/react-query": "npm:^5.17.19"
+    "@testing-library/dom": "npm:8.20.1"
+    "@testing-library/react": "npm:13.4.0"
+    "@testing-library/react-hooks": "npm:8.0.1"
+    "@testing-library/user-event": "npm:14.5.2"
+    "@types/jest": "npm:29.5.11"
+    "@types/node": "npm:18.19.9"
+    "@types/react": "npm:18.2.48"
+    "@types/react-dom": "npm:18.2.18"
+    "@typescript-eslint/eslint-plugin": "npm:5.62.0"
+    "@typescript-eslint/parser": "npm:5.62.0"
+    "@vitejs/plugin-react": "npm:2.2.0"
+    "@vitest/ui": "npm:0.34.7"
+    autoprefixer: "npm:^10.4.17"
+    babel-polyfill: "npm:6.26.0"
+    c8: "npm:7.14.0"
+    core-js: "npm:3.35.1"
+    cssnano: "npm:5.1.15"
+    daisyui: "npm:^4.6.0"
+    date-fns: "npm:^3.3.1"
+    eslint: "npm:8.23.1"
+    eslint-config-prettier: "npm:8.5.0"
+    eslint-plugin-prettier: "npm:4.2.1"
+    husky: "npm:8.0.3"
+    jsdom: "npm:20.0.3"
+    lint-staged: "npm:13.3.0"
+    postcss: "npm:^8.4.33"
+    postcss-import: "npm:15.1.0"
+    postcss-load-config: "npm:4.0.2"
+    postcss-loader: "npm:7.3.4"
+    postcss-nested: "npm:5.0.6"
+    prettier: "npm:2.7.1"
+    react: "npm:18.2.0"
+    react-dom: "npm:18.2.0"
+    react-router-dom: "npm:6.21.3"
+    sass: "npm:1.70.0"
+    semantic-release: "npm:19.0.5"
+    standard-version: "npm:9.5.0"
+    tailwindcss: "npm:^3.4.1"
+    typescript: "npm:4.9.5"
+    vite: "npm:3.2.8"
+    vite-plugin-checker: "npm:0.6.2"
+    vite-plugin-html: "npm:3.2.2"
+    vite-tsconfig-paths: "npm:3.6.0"
+    vitest: "npm:0.34.6"
+  languageName: unknown
+  linkType: soft
 
 "std-env@npm:^3.3.3":
   version: 3.4.3
